@@ -1,4 +1,6 @@
 import React from 'react';
+import NavButton from './NavButton.js';
+import './TopNavigation.css';
 
 
 class TopNavigation extends React.Component {
@@ -6,8 +8,12 @@ class TopNavigation extends React.Component {
     return (
         <nav>
           <ul className="TopNav">
-              <li>1</li>
-              <li>2</li>
+              <li><NavButton /></li>
+              <li><NavButton /></li>
+              <li><NavButton /></li>
+              <li><NavButton /></li>
+              <li><NavButton /></li>
+              <li><NavButton /></li>
           </ul>
         </nav>
     );
