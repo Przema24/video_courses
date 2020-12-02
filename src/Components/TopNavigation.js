@@ -13,6 +13,7 @@ class TopNavigation extends React.Component {
               <li><NavButton name="Przeglądaj kursy"/></li>
               <li><NavButton name="Twoje konto"/></li>
               <li><NavButton name="Twoje kursy"/></li>
+              <li><NavButton name="Koszyk"/></li>
               <li><NavButton name="Regulamin"/></li>
               <li><NavButton name="Zgłoś problem"/></li>
           </ul>

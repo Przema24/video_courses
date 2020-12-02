@@ -1,0 +1,13 @@
+.navButton {
+    position: relative;
+    right: 20px;
+    height: 70px;
+    width: 160px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navButton:hover {
+    background-color: #6b483a;
+    cursor: pointer;
+}
