@@ -2,10 +2,16 @@ import React from 'react';
 
 
 class NavButton extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {name: props};
+      }
+
   render () {
     return (
         <div className="navButton">
-            click!
+            {this.props.name}
         </div>
     );
   }
