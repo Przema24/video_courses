@@ -3,9 +3,18 @@ import React from 'react';
 
 function LoginForm() {
   return (
-      <div>
-        Logowanie
-      </div>
+      <form id="login" >
+        <div>
+          <fieldset className="loginForm">
+            <legend>Logowanie</legend>
+            <label for="username">Nazwa użytkownika:</label>
+            <input type="text" id="username" name="username" />
+            <label for="pwd">Hasło:</label>
+            <input type="password" id="pwd" name="pwd" />
+            <input type="submit" value="Zaloguj"/>
+          </fieldset>
+        </div>
+      </form>
   );
 }
 
