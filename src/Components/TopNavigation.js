@@ -1,21 +1,23 @@
 import React from 'react';
-import LoginButton from './Buttons/LoginButton.js';
-import RegistrationButton from './Buttons/RegistrationButton.js';
-import SearchCoursesButton from './Buttons/SearchCoursesButton.js';
-import RegulationsButton from './Buttons/RegulationsButton.js';
-import ReportProblemButton from './Buttons/ReportProblemButton.js';
-import './TopNavigation.css';
-
+import '../App.css';
+import {Link} from 'react-router-dom';
 
 function TopNavigation() {
   return (
       <nav>
-        <ul className="TopNav">
-          <li><RegistrationButton /></li>
-          <li><LoginButton /></li>
-          <li><SearchCoursesButton /></li>
-          <li><RegulationsButton /></li>
-          <li><ReportProblemButton /></li>
+        <Link className="links" to="/">
+          <h3>Video Courses LOGO</h3>
+        </Link>
+        <ul className="nav-links">
+          <Link className="links" to="/loginForm">
+            <li>Logowanie</li>
+          </Link>
+          <Link className="links" to="/registrationForm">
+            <li>Rejestracja</li>
+          </Link>
+          <Link className="links" to="/about">
+            <li>O nas</li>
+          </Link>
         </ul>
       </nav>
   );

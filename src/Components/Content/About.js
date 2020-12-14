@@ -1,14 +1,14 @@
 import React from 'react';
 
 
-function LoginForm() {
+function About() {
   return (
       <div>
-        Logowanie
+          O nas
       </div>
   );
 }
 
 
 
-export default LoginForm;
+export default About;
