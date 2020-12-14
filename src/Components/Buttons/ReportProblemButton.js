@@ -2,15 +2,12 @@ import React from 'react';
 import './NavButton.css';
 
 
-class ReportProblemButton extends React.Component {
-
-  render () {
-    return (
-        <div className="navButton">
-            Zgłoś problem
-        </div>
-    );
-  }
+function ReportProblemButton() {
+  return (
+      <div className="navButton">
+          Zgłoś problem
+      </div>
+  );
 }
 
 

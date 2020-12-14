@@ -9,6 +9,9 @@ function App() {
       <header className="App-header">
         <TopNavigation />
       </header>
+      <div className="MainContent">
+        Strona główna
+      </div>
     </div>
   );
 }

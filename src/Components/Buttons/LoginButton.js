@@ -1,18 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './NavButton.css';
+import LoginForm from '../Content/LoginForm.js'
 
 
-class LoginButton extends React.Component {
-
-  render () {
-    return (
-        <div className="navButton">
-            Logowanie
-        </div>
-    );
-  }
+function LoginButton() {
+  return (
+      <div className="navButton">
+          Logowanie
+      </div>
+  );
 }
-
-
 
 export default LoginButton;
