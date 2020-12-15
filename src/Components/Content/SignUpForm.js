@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function RegistrationForm() {
+function SignUpForm() {
   return (
       <div>
           Rejestracja
@@ -11,4 +11,4 @@ function RegistrationForm() {
 
 
 
-export default RegistrationForm;
+export default SignUpForm;

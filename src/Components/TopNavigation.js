@@ -9,10 +9,10 @@ function TopNavigation() {
           <h3>Video Courses LOGO</h3>
         </Link>
         <ul className="nav-links">
-          <Link className="links" to="/loginForm">
+          <Link className="links" to="/signInForm">
             <li>Logowanie</li>
           </Link>
-          <Link className="links" to="/registrationForm">
+          <Link className="links" to="/signUpForm">
             <li>Rejestracja</li>
           </Link>
           <Link className="links" to="/about">

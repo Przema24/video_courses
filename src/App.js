@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import TopNavigation from './Components/TopNavigation';
-import LoginForm from './Components/Content/LoginForm';
-import RegistrationForm from './Components/Content/RegistrationForm';
+import SignInForm from './Components/Content/SignInForm';
+import SignUpForm from './Components/Content/SignUpForm';
 import About from './Components/Content/About';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -14,8 +14,8 @@ function App() {
         <TopNavigation />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/loginForm" component={LoginForm}/>
-          <Route path="/registrationForm" component={RegistrationForm}/>
+          <Route path="/signInForm" component={SignInForm}/>
+          <Route path="/signUpForm" component={SignUpForm}/>
           <Route path="/about" component={About} />
         </Switch>
       </div>

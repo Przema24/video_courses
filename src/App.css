@@ -24,7 +24,7 @@ nav {
   text-decoration: none;
 }
 
-.loginForm {
+.signInForm {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -39,11 +39,11 @@ nav {
   border-radius: 30px;
 }
 
-.loginForm legend {
+.signInForm legend {
   font-weight: bold;
 }
 
-.loginForm input {
+.signInForm input {
   margin: 20px;
   border-radius: 10px;
 }
