@@ -7,7 +7,7 @@ function SignInForm() {
       <form id="signIn" >
         <div className="signInForm">
           <h3>Logowanie</h3>
-          <label for="username">Nazwa użytkownika:</label>
+          <label for="username">Adres e-mail:</label>
           <input type="text" id="username" name="username" required/>
           <label for="pwd">Hasło:</label>
           <input type="password" id="pwd" name="pwd" required/>
