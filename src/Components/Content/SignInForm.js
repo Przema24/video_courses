@@ -1,8 +1,7 @@
 import React from 'react';
-import '../../ApplicationLogic/SignIn';
 
 
-function SignInForm() {
+const SignInForm = () => {
   return (
       <form id="signIn" >
         <div className="signInForm">

@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import {Link} from 'react-router-dom';
 
-function TopNavigation() {
+const TopNavigation = () => {
   return (
       <nav>
         <Link className="links" to="/">
