@@ -47,3 +47,12 @@ nav {
   margin: 20px;
   border-radius: 10px;
 }
+
+.customConfirmButton {
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  background-color: red;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
